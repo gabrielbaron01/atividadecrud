@@ -1,0 +1,28 @@
+<div class="container mt-3">
+    <h2>Lista de Fornecedores</h2>
+    <p>Lista com todos os fornecedores adicionados.</p>
+    <p>Com opções de remover e editar.</p>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Endereço</th>
+          <th>Telefone</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of fornecedores; track $index) {
+          <tr>
+            <td>{{item.nome}}</td>
+            <td>{{item.endereco}}</td>
+            <td>{{item.telefone}}</td>
+            <td >
+              <button type="button" (click)="remover(item.id)" value="remover"class="btn btn-danger col-3">Remover</button>
+              <button type="button" class="btn btn-dark col-3"><a href="/editarfornecedor/{{item.id}}">Editar</a></button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>

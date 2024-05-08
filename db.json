@@ -1,0 +1,22 @@
+{
+  "fornecedor": [
+    {
+      "id": "RmPcgR3",
+      "nome": "Chaves",
+      "endereco": "Vila do chaves",
+      "telefone": "15198984"
+    },
+    {
+      "id": "m6GhncV",
+      "nome": "Seu Madruga",
+      "endereco": "Vila do Chaves, 72",
+      "telefone": "40028922"
+    },
+    {
+      "id": "TsVDEg8",
+      "nome": "Dona Clotilde",
+      "endereco": "Vila do chaves, 71",
+      "telefone": "190"
+    }
+  ]
+}
